@@ -1,0 +1,18 @@
+#list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#list li {
+  font-size: 20px;
+  padding: 14px 10px 14px 40px;
+}
+
+#list li:nth-child(even) {
+  background-color: #eee;
+}
+
+#list li:nth-child(odd) {
+  background-color: #f9f9f9;
+}
